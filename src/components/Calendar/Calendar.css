@@ -1,0 +1,42 @@
+
+.calendar-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10%;
+  background: #f0f0f0;
+  box-sizing: border-box;
+}
+
+.header-cell{
+  background: white;
+  padding: 10px;
+  text-align: center;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+tbody tr{
+  background: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.match {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+.match img {
+  width: 35px;
+  margin: 5px;
+}
+
+.match div {
+  display: flex;
+  align-items: center;
+}
